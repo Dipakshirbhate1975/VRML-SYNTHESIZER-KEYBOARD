@@ -1,0 +1,460 @@
+#VRML V2.0 utf8
+WorldInfo {
+ title "KEYBOARD"
+ info ["This Web3D Content was created with Vivaty Studio, a Web3D authoring tool"
+ "www.mediamachines.com"]
+}
+## Vizthumbnail  Thumb_KEYBOARD_wrl48846441588312076.jpg
+DEF Viewpoint1 Viewpoint {
+ description "Viewpoint1"
+ jump TRUE
+ fieldOfView 0.785
+ position .875 1.5 1.5
+ orientation 1 0 0 -.785
+}
+DEF NavigationInfo1 NavigationInfo {
+ avatarSize [
+  .25 1.6 .75
+ ]
+ visibilityLimit 0
+ speed 1
+ headlight FALSE
+ type ["WALK"
+ "ANY"]
+}
+DEF Light1 DirectionalLight {
+ intensity 1.000
+ ambientIntensity 0.000
+ direction .45173 -.86505 -.21822
+ color 1 1 1
+ on TRUE
+}
+DEF Group1 Group {
+ children [
+  DEF WHITEKEY Shape {
+   appearance Appearance {
+    material DEF White Material {
+     ambientIntensity 0.200
+     shininess 0.200
+     diffuseColor 1 1 1
+    }
+   }
+   geometry DEF GeoBox1 Box {
+    size .23 .1 1.5
+   }
+  }
+  DEF Sensor1 TouchSensor {
+  }
+  DEF Sound1 Sound {
+   intensity 1.000
+   priority 0.000
+   minBack 10.000
+   minFront 10.000
+   maxBack 500.000
+   maxFront 500.000
+   source DEF AClip_Sound1 AudioClip {
+    url [
+     "../SYNTHESIZER KEYBOARD/tone1.wav"
+    ]
+    pitch 1.000
+    loop FALSE
+    startTime -1
+    stopTime 0
+   }
+  }
+ ]
+}
+DEF dad_Group2 Transform {
+ translation .125 .1 -.375
+ children [
+  DEF Group2 Group {
+   children [
+    DEF BLACKKEY Shape {
+     appearance Appearance {
+      material DEF Black Material {
+       ambientIntensity 0.200
+       shininess 0.200
+       diffuseColor 0 0 0
+      }
+     }
+     geometry DEF GeoBox2 Box {
+      size .2 .1 .75
+     }
+    }
+    DEF Sensor2 TouchSensor {
+    }
+    DEF Sound2 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound2 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.059
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group3 Transform {
+ translation .25 0 0
+ children [
+  DEF Group3 Group {
+   children [
+    USE WHITEKEY
+    DEF Sensor3 TouchSensor {
+    }
+    DEF Sound3 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound3 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.122
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group4 Transform {
+ translation .375 .1 -.375
+ children [
+  DEF Group4 Group {
+   children [
+    USE BLACKKEY
+    DEF Sensor4 TouchSensor {
+    }
+    DEF Sound4 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound4 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.189
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group5 Transform {
+ translation .5 0 0
+ children [
+  DEF Group5 Group {
+   children [
+    USE WHITEKEY
+    DEF Sensor5 TouchSensor {
+    }
+    DEF Sound5 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound5 AudioClip {
+      url [
+       "tone1.wav"
+      ]
+      pitch 1.260
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group6 Transform {
+ translation .75 0 0
+ children [
+  DEF Group6 Group {
+   children [
+    USE WHITEKEY
+    DEF Sensor6 TouchSensor {
+    }
+    DEF Sound6 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound6 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.335
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group7 Transform {
+ translation .875 .1 -.375
+ children [
+  DEF Group7 Group {
+   children [
+    USE BLACKKEY
+    DEF Sensor7 TouchSensor {
+    }
+    DEF Sound7 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound7 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.414
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group8 Transform {
+ translation 1 0 0
+ children [
+  DEF Group8 Group {
+   children [
+    USE WHITEKEY
+    DEF Sensor8 TouchSensor {
+    }
+    DEF Sound8 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound8 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.498
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group9 Transform {
+ translation 1.125 .1 -.375
+ children [
+  DEF Group9 Group {
+   children [
+    USE BLACKKEY
+    DEF Sensor9 TouchSensor {
+    }
+    DEF Sound9 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound9 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.587
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group10 Transform {
+ translation 1.25 0 0
+ children [
+  DEF Group10 Group {
+   children [
+    USE WHITEKEY
+    DEF Sensor10 TouchSensor {
+    }
+    DEF Sound10 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound10 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.682
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group11 Transform {
+ translation 1.375 .1 -.375
+ children [
+  DEF Group11 Group {
+   children [
+    USE BLACKKEY
+    DEF Sensor11 TouchSensor {
+    }
+    DEF Sound11 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound11 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.782
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group12 Transform {
+ translation 1.5 0 0
+ children [
+  DEF Group12 Group {
+   children [
+    USE WHITEKEY
+    DEF Sensor12 TouchSensor {
+    }
+    DEF Sound12 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound12 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 1.888
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+   ]
+  }
+ ]
+}
+DEF dad_Group13 Transform {
+ translation 1.75 0 0
+ children [
+  DEF Group13 Group {
+   children [
+    DEF dad_Reference11 Transform {
+     translation -1.75 0 0
+     children [
+      USE WHITEKEY
+     ]
+    }
+    DEF Sound13 Sound {
+     intensity 1.000
+     priority 0.000
+     minBack 10.000
+     minFront 10.000
+     maxBack 500.000
+     maxFront 500.000
+     source DEF AClip_Sound13 AudioClip {
+      url [
+       "../SYNTHESIZER KEYBOARD/tone1.wav"
+      ]
+      pitch 2.000
+      loop FALSE
+      startTime -1
+      stopTime 0
+     }
+    }
+    DEF Sensor13 TouchSensor {
+    }
+   ]
+  }
+ ]
+}
+DEF vizx_init TimeSensor {
+ cycleInterval 0.100
+ loop TRUE
+}
+ROUTE vizx_init.cycleTime TO AClip_Sound1.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound3.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound4.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound5.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound6.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound7.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound8.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound9.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound10.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound11.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound12.startTime
+ROUTE vizx_init.cycleTime TO AClip_Sound13.startTime
+ROUTE vizx_init.cycleTime TO vizx_init.stopTime
+ROUTE Sensor1.touchTime TO AClip_Sound1.startTime
+ROUTE Sensor2.touchTime TO AClip_Sound2.startTime
+ROUTE Sensor3.touchTime TO AClip_Sound3.startTime
+ROUTE Sensor4.touchTime TO AClip_Sound4.startTime
+ROUTE Sensor5.touchTime TO AClip_Sound5.startTime
+ROUTE Sensor6.touchTime TO AClip_Sound6.startTime
+ROUTE Sensor7.touchTime TO AClip_Sound7.startTime
+ROUTE Sensor8.touchTime TO AClip_Sound8.startTime
+ROUTE Sensor9.touchTime TO AClip_Sound9.startTime
+ROUTE Sensor10.touchTime TO AClip_Sound10.startTime
+ROUTE Sensor11.touchTime TO AClip_Sound11.startTime
+ROUTE Sensor12.touchTime TO AClip_Sound12.startTime
+ROUTE Sensor13.touchTime TO AClip_Sound13.startTime
